@@ -2,6 +2,7 @@
 <html lang="ko-kr">
 	<head>
 		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>GIT GUIDE</title>
 		<style type="text/css">
 			article { padding:10px 0; }
@@ -21,6 +22,9 @@
 			.exam { width:20%; margin:0 auto; text-align: left; border:1px solid #fff; }
 			.exam.long { width:35%; }
 			.exam.vLong { width:45%; }
+			@media all and (max-device-width:320px) {
+				.exam { width:100% !important; }
+			}
 			.exam.list li { border-bottom:0; }
 			.exam li { border-bottom:1px solid #fff; padding:4px 0 4px 15px; display: block;}
 			.exam ol { padding:0; margin:0; }
